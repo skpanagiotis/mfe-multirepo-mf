@@ -1,0 +1,58 @@
+<div class="row p-4">
+  <div class="col-lg-12">
+    <form [formGroup]="addForm">
+      <div class="form-row">
+        <div class="col-md-4 form-group">
+          <label for="customerCode">Customer Code:</label>
+          <input
+            type="text"
+            formControlName="customerCode"
+            calss="form-control"
+            id="customerCode"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4 form-group">
+          <label for="customerName">Customer Name:</label>
+          <input
+            type="text"
+            formControlName="customerName"
+            calss="form-control"
+            id="customerName"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4 form-group">
+          <label for="cardNumber">Card Number:</label>
+          <input
+            type="text"
+            formControlName="cardNumber"
+            calss="form-control"
+            id="cardNumber"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4 form-group">
+          <label for="balance">Balance:</label>
+          <input
+            type="text"
+            formControlName="balance"
+            calss="form-control"
+            id="balance"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button (click)="submit()" type="submit" class="btn btn-primary">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
