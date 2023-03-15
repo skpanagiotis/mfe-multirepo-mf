@@ -15,6 +15,8 @@ Multirepo Micro-Frontend Implementation using **Module Federation**.
 
 ## Getting Started
 
+**Angular Version 15.1.0**
+
 Module Federation includes, currently three projects:
 
 1. **Shell**, the main project.
